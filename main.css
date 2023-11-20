@@ -1,0 +1,55 @@
+/*-The style that is common to all pages which includes the colour and the font. (Font is different in other places)-*/
+
+body{
+  background-color: #013849;
+  color:rgb(36, 35, 35);
+  font-family: "Copperplate";
+}
+
+/*-The style for the navigation bar that sets the size and the colour-*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262c39;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+/* -The style for the text -*/
+  
+p {
+    color: white;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+  }

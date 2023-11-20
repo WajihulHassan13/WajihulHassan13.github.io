@@ -1,0 +1,201 @@
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="f1.css">
+<body>
+<!--The navigation bar. It needs to be on every HTML file for it to appear on all pages.-->
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="series.html">Series</a></li>
+
+
+  </ul>
+<!--The button that leads to the official F1 website-->
+
+  <button id="f1Button">Go to F1 Website</button>
+<!--The JavaScript for the button. It makes use of a function and the same method is used for the other buttons.-->
+  <script>
+      // Function to navigate to the F1 website
+      function goToF1Website() {
+          // Define the F1 website URL
+          var f1WebsiteUrl = "https://www.formula1.com/";
+
+          // Use JavaScript to navigate to the URL
+          window.location.href = f1WebsiteUrl;
+      }
+
+      // Add a click event listener to the button
+      document.getElementById("f1Button").addEventListener("click", goToF1Website);
+  </script>
+<!--This div class is the button for the anchor link that goes to the bottom of the page to the aufio-->
+
+<div class="anchor"><A href="#sound">Listen to an F1 Car</A></div> 
+<div class="format"><a href="#weekendformat">Format</a></div>
+
+<div id="ontop">
+
+<!--The heading and explanation for Formula 1-->
+<h3> What is Formula 1?</h3>
+
+<img src="f1start.jpg" alt = "F1 start in Bahrain"  style = "width: 700;" align = "right">
+
+<p> Formula 1 is the top tier of international racing for single-seater and open wheeled cars. The competition is sanctioned and  by Fédération Internationale de l'Automobile (FIA). The FIA Formula 1 World Championship has been and is the premier racing series since its inaugaral season in 1951. </p>
+<p> 10 teams compete in the year round season with two drivers per team. The teams compete for the World Constructors Championship (WCC) and the individual drivers gunning for the World Drivers Championship (WDC). The driver with the most points by the end of the season wins the WDC whereas the team with the most points (collective of the points of both drivers) wins the WCC.</p>
+</div>
+<!--The linke break is to seperate the the text from the the one before-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Information about the race weekend and images in the div for the anchor link.-->
+<div id="weekendformat">
+<h3> Race Weekend Format </h3>
+
+<img src="f1format.jpg" alt = "F1 Race Weekend Format"  style = "width: 700;" align = "left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--The padding is so theres a distance between the paragraph and the image-->
+
+<p style="padding-left: 20px;"> A 'Race Weekend' runs from Friday to Sunday 5 sessions in total. 3 Free Practice sessions, 1 Qualifying session and the main race or the 'Grand Prix'. The first 2 Free Practice sessions are on Friday with the last Free Practice session and Qualifying on Saturday and the Grand Prix on Sunday. </p>
+<p>From 2021, a new weekend format is being tested that involves a short Sprint Race a day before the actual race. In 2021 and 2022, Qualifying determined the starting order for the Sprint and the result of the Sprint Race determined the starting order for the Grand Prix. From 2023, the Sprint races will have their own qualifying session that would determine the starting order for the Sprint and a seperate qualifying to determine the starting order for the Grand Prix. </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h3>Listen to what a 2011 Renault R31 sounds like</h3>
+
+<img src="lotus.jpeg" alt="Renault R31" style="width: 700;" align="right">
+
+<br>
+<br>
+<br>
+</div>
+<!--The div class contains the audio and is where the anchor link will the user -->
+<div id="sound">
+
+  <audio controls>
+    <source src="Lotus Renault Exhaust.mp3" type="audio/mpeg">
+   
+  
+  
+  </audio>
+<!--Labels for the audios are in italics-->
+
+  <P style="font-size: smaller;"> <i>2011 Lotus Blown Diffuser </i></P>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--This is the internal anchor link that goes back to the top-->
+
+<div class="top">
+  <a href="#ontop">What is F1</a>
+</div>
+
+<style>
+  p {
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3 {
+top:200px;
+}
+P {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*-The style for the button which includes the effect that appears when the cursor is hovered over it-*/
+button {
+  border: 1px solid ;
+  background-color:red ;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  border-color:red ;
+  float: right;
+}
+button:hover{
+  background-color: white;
+  color: red;
+}
+a {
+  text-decoration: none;
+}
+/*-The style for the internal anchor links-*/
+
+.top {
+  border: 1px solid ;
+  background-color:rgb(0, 106, 255) ;
+  padding: 8px;
+  color: white;
+  text-decoration: none
+  border-radius: 6px;
+  float:right
+}
+.anchor {
+  border: 1px solid ;
+  background-color:rgb(93, 130, 182) ;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  float: right;
+  font-size: smaller;
+  border-color:rgb(93, 130, 182) ;
+}
+.format {
+  border: 1px solid ;
+  background-color:rgb(93, 130, 182) ;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  float: right;
+  font-size: smaller;
+  border-color:rgb(93, 130, 182) ;
+}
+.top {
+  border: 1px solid ;
+  background-color:rgb(93, 130, 182) ;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  float: right;
+  font-size: smaller;
+  border-color:rgb(93, 130, 182) ;
+}
+</style>
+

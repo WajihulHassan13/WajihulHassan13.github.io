@@ -1,0 +1,106 @@
+<!--Links the page to the main stylesheet-->
+
+<link rel="stylesheet" href="main.css">
+
+
+<body>
+
+ <!--Navigation bar that appears on all pages-->
+  
+ <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="series.html">Series</a></li>
+
+  </ul>
+
+  <!--HTML Button that takes the user to the MotoGP Website -->
+
+  <button id="motogpweb">MotoGP Website</button>
+
+  <!--JavaScript that codes for the button-->
+    <script>
+      // Function to navigate to the F1 website
+      function goToGPWebsite() {
+          // Define the F1 website URL
+          var motogpweb = "https://www.motogp.com/";
+
+          // Use JavaScript to navigate to the URL
+          window.location.href = motogpweb;
+      }
+
+      // Add a click event listener to the button
+      document.getElementById("motogpweb").addEventListener("click", goToGPWebsite);
+  </script>
+
+<!--Information about MotoGP-->
+
+<h2>MotoGp:Where Speed Meets Courage</h2>
+<!--Audio for the MotoGP bike sound-->
+<audio controls style="float: right;">
+
+  <source src="MotoGP KTM Insane Practice Start sound. Jack Miller at the British GP.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+<br>
+<br>
+<!--Labels for the audios are in italics-->
+<p style="font-size: smaller; text-align: right;"><i>What a MotoGP Bike Sounds like</i></p>
+
+<h3>What is MotoGP?</h3> 
+
+<img src="motogpstart.jpeg" alt="MotoGP Start in Barcelona" style="width:600px;" align="right">
+<p> MotoGP is short Motorcycle Grand Prix and is the premier motorcycle racing series, with fastest riders and bikes in the world. It is a global sport which features a range of circuits each with its unique challenges, from tight and technical circuits to fast and flowing ones including the iconic Circuit de Barcelona-Catalunya to the fast straights of Mugello in Italy. Renowned manfacturers including Ducati, Yamaha, Suzuki, Honda, Aprilia and various other teams compete for the World Championship. The races are not only a test of speed but also of skill, bravery, and adaptability, as riders navigate hairpin turns, long straights, and unpredictable weather conditions with its history dating back to 1949. </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3>How it Works</h3>
+<img src="motogpworks.jpeg" alt="How does MotoGp Work?" style="width:600px" align="left">
+
+<br>
+<br>
+<br>
+
+<p>The MotoGP World Championship consists of 21 Grand Prix. Each race lasts between 40 and 45 minutes over a distance of between 100 and 130 km, depending on the circuit. Points are awarded at the finish line for the first 15 riders according to the following scale: 25, 20, 15, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 point. This year, a sprint race has been added to Saturday afternoon. It takes place over half the distance of the Sunday Grand Prix and only the first nine finishers score points for the world championship ranking. The scale is as follows: 12 points for the first, 9 for the second, 7 for the third... And so on until the ninth.</p>
+
+
+
+<style>
+/*-Font used on this page-*/
+
+  p {
+
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+h3 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*-The style for the button with effects for when the cursor is hovered over it-*/
+
+button {
+  border: 1px solid ;
+  background-color:red ;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  float: right;
+  
+}
+button:hover{
+  background-color: white;
+  color: red;
+}
+
+
+</style>
+<body/>
